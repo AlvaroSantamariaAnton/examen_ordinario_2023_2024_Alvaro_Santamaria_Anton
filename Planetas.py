@@ -1,31 +1,31 @@
+# Creamos la clase padre Planetas
 class Planeta:
     
+    # Definimos el constructor con las propiedades
     def __init__(self, nombre, volumen, clasificacion):
-        
         self.nombre = nombre
         self.volumen = volumen
         self.clasificacion = clasificacion
-        
-class Concordia(Planeta):
-    def __init__(self, nombre, volumen, clasificacion):
-        super().__init__(nombre, volumen, clasificacion)
-        
-        self.volumen = 500
-        self.clasificacion = 1
 
+# Creamos la clase Concordia heredada de Planeta
+class Concordia(Planeta):
+    
+    # Definimos el constructor que hereda las propiedades de la clase padre
+    def __init__(self, nombre):
+        super().__init__(nombre, 500, 1)
+
+
+# Creamos la clase Ilum heredada de Planeta
 class Ilum(Planeta):
-    def __init__(self, nombre, volumen, clasificacion):
-        super().__init__(nombre, volumen, clasificacion)
-        
-        self.volumen = 1200
-        self.clasificacion = 2
-        
+    
+    # Definimos el constructor que hereda las propiedades de la clase padre
+    def __init__(self, nombre):
+        super().__init__(nombre, 1200, 2)
+
+
+# Creamos la clase Kamino heredada de Planeta
 class Kamino(Planeta):
-    def __init__(self, nombre, volumen, clasificacion):
-        super().__init__(nombre, volumen, clasificacion)
-        
-        self.volumen = 800
-        self.clasificacion = 3
-        
-        
-planeta_1 = Kamino(Planeta)
+    
+    # Definimos el constructor que hereda las propiedades de la clase padre
+    def __init__(self, nombre):
+        super().__init__(nombre, 800, 3)
