@@ -1,5 +1,5 @@
-from EstrellaDeLaMuerte import EstrellaDeLaMuerte
-from Naves import NavePequena, NaveGrande
+from EstrellaDeLaMuerte import EstrellaDeLaMuerte   # Importar clase necesaria
+from Naves import NavePequena, NaveGrande           # Importar clases de Naves.py
 
 # Crear instancias de la Estrella de la Muerte y naves aliadas
 estrella_muerte = EstrellaDeLaMuerte()

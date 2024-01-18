@@ -1,5 +1,6 @@
 from EstrellaDeLaMuerte import EstrellaDeLaMuerte
 
+# Creamos clase NavePequeña heredada
 class NavePequena(EstrellaDeLaMuerte):
     def __init__(self, nombre, puntos_vida):
         super().__init__()
@@ -13,7 +14,8 @@ class NavePequena(EstrellaDeLaMuerte):
         else:
             print(f"La Nave Pequeña {self.nombre} ha resistido el ataque.")
             self.puntos_vida -= puntos_ataque
-
+            
+# Creamos clase NavePequeña heredada
 class NaveGrande(EstrellaDeLaMuerte):
     def __init__(self, nombre, puntos_vida):
         super().__init__()
