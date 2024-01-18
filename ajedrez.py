@@ -16,12 +16,12 @@ while True:
 
     # Solicitar entrada al usuario
     jugador_movimiento = input(
-        "Ingresa el nombre del jugador para realizar un movimiento "
+        "\nIngresa el nombre del jugador para realizar un movimiento "
         "(Introduce 'Salir' para terminar): ")
 
     # Validar el input
     if jugador_movimiento not in ["Carlsen", "Hikaru", "Salir"]:
-        print("Nombre de jugador no válido. Inténtalo de nuevo.")
+        print("\nNombre de jugador no válido. Inténtalo de nuevo.")
         continue
 
     # Verificar si el juego ha terminado
@@ -49,4 +49,4 @@ while True:
         tiempo_movimiento = 5
 
     # Pausa para simular el tiempo entre movimientos
-    time.sleep(1)
+    time.sleep(0.5)
