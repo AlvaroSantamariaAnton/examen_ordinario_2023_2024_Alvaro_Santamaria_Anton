@@ -1,3 +1,4 @@
+# Bucle principal para asegurar la correcta entrada inicial
 while True:
     try:
         numero_elegido = int(input("\nIngrese un número entero mayor o igual a 1: "))
@@ -15,6 +16,7 @@ print()
 espacios = numero_elegido - 1
 asteriscos = 1
 
+# Bucle for para crear y mostrar las alturas
 for i in range(numero_elegido):
      
     print(" " * espacios + "*" * asteriscos)
