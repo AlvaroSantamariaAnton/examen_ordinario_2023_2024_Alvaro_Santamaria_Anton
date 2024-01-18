@@ -17,7 +17,8 @@ class EstrellaDeLaMuerte:
             print(f"La Estrella de la Muerte ha perdido {planeta.volumen} puntos de vida. Vida actual: {self.puntos_vida}")
         else:
             print(f"\nNo se puede destruir el planeta {planeta.nombre}. Puntos de vida insuficientes.")
-            
+    
+    # Definimos el método estado
     def estado(self):
         
         if self.puntos_vida <= 0:
