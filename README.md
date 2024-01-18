@@ -7,3 +7,6 @@ los cuales son:
 * Naves.py
 * main.oy
 * ajedrez.py
+
+# Link al repositorio
+https://github.com/AlvaroSantamariaAnton/examen_ordinario_2023_2024_Alvaro_Santamaria_Anton.git
