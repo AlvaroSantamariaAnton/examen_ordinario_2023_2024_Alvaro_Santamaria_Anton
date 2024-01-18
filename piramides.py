@@ -21,4 +21,4 @@ for i in range(numero_elegido):
      
     print(" " * espacios + "*" * asteriscos)
     espacios -= 1
-    asteriscos += 2
+    asteriscos += 2    

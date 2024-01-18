@@ -26,16 +26,18 @@ class EstrellaDeLaMuerte:
         else:
             print(f"\nLa Estrella de la Muerte tiene {self.puntos_vida} puntos de vida")
 
-# Creamos las instancias de los planetas y la Estrella de la Muerte
-concordia = Concordia("Concordia")
-ilum = Ilum("Ilum")
-kamino = Kamino("Kamino")
-estrella_muerte = EstrellaDeLaMuerte()
 
-# Llamar al método destruir_planeta para cada planeta
-estrella_muerte.destruir_planeta(concordia)
-estrella_muerte.destruir_planeta(ilum)
-estrella_muerte.destruir_planeta(kamino)
+if __name__ == "__main__":
+    # Creamos las instancias de los planetas y la Estrella de la Muerte
+    concordia = Concordia("Concordia")
+    ilum = Ilum("Ilum")
+    kamino = Kamino("Kamino")
+    estrella_muerte = EstrellaDeLaMuerte()
 
-# Llamar al método estado para comprobar la vitalidad de la Estrella de la Muerte
-estrella_muerte.estado()
+    # Llamar al método destruir_planeta para cada planeta
+    estrella_muerte.destruir_planeta(concordia)
+    estrella_muerte.destruir_planeta(ilum)
+    estrella_muerte.destruir_planeta(kamino)
+
+    # Llamar al método estado para comprobar la vitalidad de la Estrella de la Muerte
+    estrella_muerte.estado()
